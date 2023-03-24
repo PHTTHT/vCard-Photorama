@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--Creatore del codice sorgente: Pierluigi Cellucci-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS vCard Photorama.css" type="text/css">
+        <style>
+
+@media only screen and (min-width: 1024px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+body {
+        font-size: 16px;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+      
+      button {
+        font-size: 1rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+
+      @media only screen and (max-width: 767px) {
+        body {
+          font-size: 14px;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-size: 1.2rem;
+        }
+        
+        p {
+          font-size: 0.875rem;
+        }
+        
+        button {
+          font-size: 0.875rem;
+          padding: 8px 16px;
+        }
+      }
+      
+
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        body {
+          font-size: 16px;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-size: 1.75rem;
+        }
+        
+        p {
+          font-size: 1rem;
+        }
+        
+        button {
+          font-size: 1rem;
+        }
+      }
+      
+
+      @media only screen and (min-width: 1024px) {
+        body {
+          font-size: 18px;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-size: 3rem;
+        }
+        
+        p {
+          font-size: 1.125rem;
+        }
+        
+        button {
+          font-size: 1.125rem;
+          padding: 12px 24px;
+        }
+      }
+
+      button {
+        background-color: black;
+        color: #fff;
+        font-size: 80px;
+        border-radius: 25px;
+        padding: 20px 40px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+      }
+
+      button:focus {
+        outline: none;
+      }
+
+      button:active {
+        background-color: red;
+        transition: background-color 0s;
+      }
+
+      @media (max-width: 768px) {
+        button {
+          font-size: 16px;
+          padding: 15px 30px;
+        }
+      }
+        </style>
+    </head>
+    <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+        <div id="Prima parte" >
+        <img src="Prima parte.png" style="float:left; margin-bottom: 50px;" alt="Prima parte" class="img-responsive">
+        </div>
+        <div id="Bottone" style="text-align: center; margin-bottom: 50px; border-radius: 40px;">
+            <a href="" download="vCard Photorama">
+            <button>Aggiungi a contatti</button>
+            </a>
+        </div>
+        <div id="Scritte" style="text-align: center;">
+        <a href="tel: +39 0873 3116612"><h1>Tel. 0873 3116612</h1></a>
+        <a href="tel: +39 338 2467788"><h1>Mob. 338 2467788</h1></a>
+        <br>
+        <a href="mailto:photoramasnc@gmail.com"><h1>Email - photoramasnc@gmail.com</h1></a>
+        <a href="https://www.memorymaker.it/" target="_blank" 
+        style="color: black; text-decoration: none;"
+        onmouseover="this.style.color='red';" 
+        onmouseout="this.style.color='black';"><h1>Sito - www.memorymaker.it</h1></a>
+        <br>
+        <a href="https://www.google.it/maps/dir/46.1406208,9.8238464/photorama+make+it+easy/@44.0947961,9.7016021,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1330c2b2a352a7fb:0xbdca42f8ff0b1c60!2m2!1d14.6712481!2d42.0725424" target="_blank"
+        style="color: black; text-decoration: none;"
+        onmouseover="this.style.color='red';" 
+        onmouseout="this.style.color='black';"><h1>C.so Mazzini, 32 - Cupello</h1></a>
+        <br>
+        <h1>CF - SMMNCL76B18E372H</h1>
+        <h1>P.IVA 02362140697</h1>
+        </div>
+        <div class="container">
+          <div class="image-container">
+          <a href="https://it-it.facebook.com/photorama.memory.maker/" target="_blank"><img src="fecebook.png" alt="Immagine a sinistra"></a>
+          </div>
+          <div class="image-container">
+          <a href="https://vimeo.com/297146370" target="_blank"><img src="Vimeo.png" alt="Immagine al centro"></a>
+          </div>
+          <div class="image-container">
+          <a href="https://www.instagram.com/photorama_memorymaker/" target="_blank"><img src="Instagram.png" alt="Immagine a destra"></a>
+          </div>
+        </div>
+    </body>
+</html>
